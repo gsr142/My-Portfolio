@@ -6,11 +6,12 @@
 
 body {
     margin:0; 
-    background-color: rgb(7, 7, 48);
+    background-color: rgb(48, 48, 59);
     /*selects backround color for page gets rid of margins*/
 }
+
 a:link {
-    text-decoration: none;
+    text-decoration: none;/*remove underline from links*/
 }
 
 header {
@@ -18,13 +19,13 @@ header {
     background-image: url(../images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
     width: 100%; 
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end; /*puts all items at the bottom of the container*/
 }
 
 header h1 {
-    width:50%;
+    width:50%; 
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start; /*Keeps h1 to the left*/
     margin-bottom: 0;
 }
 
@@ -64,9 +65,6 @@ header h2 {
     margin-bottom: 0;
 }
 
-p {
-    
-}
 main {
     display:flex;
     height: 100%;
@@ -74,22 +72,26 @@ main {
 
 .sidebar {
     display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 25%;
+    flex-direction: column; /*stacks items on top of each other*/
+    height: auto;/*fills the body top to bottom*/
+    width: 25%; /*fills 25% of page width*/
     justify-content: space-between;
     
 }
 
+.sidebar h3 {
+    color:aquamarine
+}
+
 .info{
     display:flex;
-    flex-direction: column;
+    flex-direction: column; /*stacks about me, projects, and contact*/
     margin-left: 25px;
     width: 70%;
 }
 
 .about-me {
-    display: flex;
+    display: inline-block;
 }
 
 .about-me img {
@@ -98,9 +100,9 @@ main {
 
 .projects ul {
     display: flex;
-    list-style: none;
-    flex-direction: row;
-    flex-wrap: wrap;
+    list-style: none; /*removes bullet points from list*/
+    flex-direction: row; 
+    flex-wrap: wrap; /*causes items to wrap to a new row*/
 }
 
 .projects ul li {
@@ -113,7 +115,7 @@ main {
     height: 100%;
 }
 
-#number-one {
+#number-one { /*Makes the first project in the list larger than the rest*/
     width: 75%;
     height: 100%;
 }
@@ -124,13 +126,13 @@ main {
 
 
 .contact {
-    display: flex;
+    display: flex; 
 }
 
 .contact ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-around; /*centers content within container*/
     width: 100%;
 }
 
