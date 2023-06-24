@@ -1,13 +1,16 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    /*outline: dashed 1px white;*/
+    outline: dashed 1px white;/*this line for reference while building only. Delete before deployment*/
 }
 
 body {
     margin:0; 
     background-color: rgb(7, 7, 48);
-    
+    /*selects backround color for page gets rid of margins*/
+}
+a:link {
+    text-decoration: none;
 }
 
 header {
@@ -15,7 +18,6 @@ header {
     background-image: url(../images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
     width: 100%; 
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -58,6 +60,10 @@ header nav ul li a {
     
 }
 
+header h2 {
+    margin-bottom: 0;
+}
+
 p {
     
 }
@@ -91,12 +97,31 @@ main {
 }
 
 .projects ul {
+    display: flex;
     list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects ul li {
+    width: 37%;
+    margin: 5px;
 }
 
 .projects ul li img {
-    width: 40%;
+    width: 100%;
+    height: 100%;
 }
+
+#number-one {
+    width: 75%;
+    height: 100%;
+}
+
+#number-one img {
+    width: 100%;
+}
+
 
 .contact {
     display: flex;
@@ -108,6 +133,8 @@ main {
     justify-content: space-around;
     width: 100%;
 }
+
+
 
 
 
