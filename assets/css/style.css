@@ -1,0 +1,33 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin:0; 
+    background-image: url(../images/mohammad-alizade-XgeZu2jBaVI-unsplash.jpg);
+    
+}
+
+header {
+    position: fixed;/* fixes header to top of page*/
+    background-image: url(../images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
+    width: 100%; 
+
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+
+header nav ul li a {
+    color:rgb(251, 249, 249);
+    font-weight: bold;
+    
+}
+
+
