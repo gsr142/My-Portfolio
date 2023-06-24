@@ -1,5 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    outline: dashed 1px white;
 }
 
 body {
@@ -12,16 +14,41 @@ header {
     position: fixed;/* fixes header to top of page*/
     background-image: url(../images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
     width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
+header h1 {
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+header nav {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
 }
 
 header nav ul {
-    display: flex;
     width: 100%;
-    
+    display: flex;   
     list-style: none;
-    justify-content: space-around;
+    justify-content: flex-end;
     padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+}
+
+header nav ul li{
+    margin-left:6%;
+    margin-right: 4%;
     
 }
 
@@ -34,5 +61,35 @@ header nav ul li a {
 p {
     
 }
+main {
+    display:flex;
+    height: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 25%;
+    justify-content: space-between;
+    
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 60%;
+}
+
+.projects ul {
+    list-style: none;
+}
+
+.projects ul li img {
+    width: 40%;
+}
+
+
 
 
