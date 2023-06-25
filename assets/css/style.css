@@ -1,7 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    outline: dashed 1px white;/*this line for reference while building only. Delete before deployment*/
+    /*outline: dashed 1px white;*//*this line for reference while building only. Delete before deployment*/
 }
 
 body {
@@ -113,6 +113,10 @@ main {
 .projects ul li img {
     width: 100%;
     height: 100%;
+}
+
+.projects ul li img:hover {
+    box-shadow: 0 0 2px 2px aquamarine;
 }
 
 #number-one { /*Makes the first project in the list larger than the rest*/
