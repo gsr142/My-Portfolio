@@ -11,7 +11,15 @@ This is my portfolio website, to be updated as I learn and grow as a developer. 
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Git](https://git-scm.com/)
 * [Free Images](https://unsplash.com)
+* [css-tricks.com](css-tricks.com)
 
 ## Credits
-add photo credits
-[css-tricks.com](css-tricks.com)
+### Navigation Bar background photo
+* Photo by: [Ryan Moreno](https://unsplash.com/@ryanmoreno)
+* Published June 5, 2016
+* Free to use under the Unsplash License
+
+### Tipout Calculator link photo
+* Photo by: [Jessie McCall](https://unsplash.com/@littlegreeneyes)
+* Published May 5, 2020
+* Free to use under the Unsplash License
