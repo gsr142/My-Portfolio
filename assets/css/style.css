@@ -61,14 +61,14 @@ header nav ul {
     
 }
 
-header nav ul li{
+header nav ul li{ /*puts an equal ammount of space between each list item, while the smaller value for margin right pushes the entire list slightly to the right of the page.*/
     margin-left:6%;
     margin-right: 4%;
     
 }
 
 header nav ul li a {
-    color:rgb(251, 249, 249);
+    color:aliceblue;
     font-weight: bold;
     
 }
@@ -112,7 +112,6 @@ main {
 
 .projects ul {
     display: flex;
-    list-style: none; /*removes bullet points from list*/
     flex-direction: row; 
     flex-wrap: wrap; /*causes items to wrap to a new row*/
 }
