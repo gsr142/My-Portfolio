@@ -1,13 +1,25 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    /*outline: dashed 1px white;*//*this line for reference while building only. Delete before deployment*/
+    outline: dashed 1px white;/*this line for reference while building only. Delete before deployment*/
 }
 
 body {
     margin:0; 
     background-color: rgb(48, 48, 59);
     /*selects backround color for page gets rid of margins*/
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+h3 {
+    font-size: 125%;
 }
 
 a:link {
