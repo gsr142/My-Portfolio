@@ -77,6 +77,10 @@ header h2 {
     margin-bottom: 0;
 }
 
+header h2:hover {
+    color:aquamarine
+}
+
 main {
     display:flex;
     height: 100%;
