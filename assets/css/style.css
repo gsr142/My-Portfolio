@@ -1,7 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    border: white 2px dashed;
+    /*border: white 2px dashed;*/
 }
 
 body {
@@ -97,6 +97,8 @@ footer {
     text-align: center;
 }
 
+
+
 .sidebar {
     display: flex;
     flex-direction: column; /*stacks items on top of each other*/
@@ -151,6 +153,7 @@ footer {
     height: 100%;
 }
 
+
 /*Outlines project images with a box shadow on hover*/
 .projects ul li img:hover {
     box-shadow: 0 0 2px 2px aquamarine;
@@ -165,6 +168,7 @@ footer {
     width: 85%;
     height: 100%;
 }
+
 
 
 
