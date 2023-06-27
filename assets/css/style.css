@@ -104,6 +104,7 @@ main {
     flex-direction: column; /*stacks about me, projects, and contact*/
     margin-left: 25px;
     width: 70%;
+    
 }
 
 .about-me {
@@ -153,6 +154,12 @@ main {
     list-style: none;
     justify-content: space-around; /*centers content within container*/
     width: 100%;
+}
+/*side bar disappears when screen width<786px*/
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display:none
+    }
 }
 
 
