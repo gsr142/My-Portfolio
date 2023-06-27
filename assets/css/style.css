@@ -186,6 +186,11 @@ footer {
     margin-top: 4px;
 }
 
+/*changes link text color on hover*/
+#contact a:hover {
+    color:aquamarine;
+}
+
 /*side bar disappears when screen width<786px*/
 @media screen and (max-width: 768px) {
     .sidebar {
@@ -228,7 +233,8 @@ footer {
         margin-top: 74px;
     }
     #contact ul {
-        display :block
+        display :block;
+        text-align: center;        
     }
     #number-one { 
         width: 95%;
