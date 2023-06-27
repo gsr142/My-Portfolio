@@ -32,6 +32,7 @@ header {
     width: 100%; 
     display: flex;
     align-items: flex-end; /*puts all items at the bottom of the container*/
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -108,8 +109,9 @@ main {
 }
 
 .about-me {
-    display: inline-block;
+    display: inline-flex;
 }
+
 
 .about-me img {
     width:12%;
@@ -122,7 +124,7 @@ main {
 }
 
 .projects ul li {
-    width: 37%;
+    width: 42%;
     margin: 5px;
 }
 
@@ -131,18 +133,18 @@ main {
     height: 100%;
 }
 
+/*Outlines project images with a box shadow on hover*/
 .projects ul li img:hover {
     box-shadow: 0 0 2px 2px aquamarine;
 }
 
-#number-one { /*Makes the first project in the list larger than the rest*/
-    width: 75%;
+/*Makes the first project in the list larger than the rest*/
+#number-one { 
+    width: 85%;
     height: 100%;
 }
 
-#number-one img {
-    width: 100%;
-}
+
 
 
 .contact {
