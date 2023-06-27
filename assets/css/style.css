@@ -120,6 +120,7 @@ footer {
 
 #about {
     display: inline-flex;
+    margin: 5px;
 }
 
 
@@ -127,6 +128,11 @@ footer {
     width:60px;
     height: 86px;
     }
+
+#about p {
+    margin-left: 10px;
+    width: 74%;
+}
 
 .projects ul {
     display: flex;
