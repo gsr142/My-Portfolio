@@ -22,6 +22,10 @@ h3 {
     font-size: 125%;
 }
 
+h4 {
+    font-size: 90%;
+}
+
 a:link {
     text-decoration: none;/*remove underline from links*/
 }
@@ -88,6 +92,11 @@ main {
     margin-top: 40px;
 }
 
+footer {
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
 .sidebar {
     display: flex;
     flex-direction: column; /*stacks items on top of each other*/
@@ -151,6 +160,7 @@ main {
 
 #contact {
     display: flex; 
+    
 }
 
 #contact ul {
@@ -158,7 +168,9 @@ main {
     list-style: none;
     justify-content: space-around; /*centers content within container*/
     width: 100%;
+    margin-top: 4px;
 }
+
 /*side bar disappears when screen width<786px*/
 @media screen and (max-width: 768px) {
     .sidebar {
