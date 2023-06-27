@@ -201,13 +201,22 @@ footer {
         width:90%;
     }
     header {
-        display: block;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+    }
+    header nav {
+        width: 50%;
     }
     header nav ul {
         display: block;
+        text-align: right;
+    
     }
     h1 {
         font-size: 20px;
+        text-align: left;
+        align-items:center
     }
     h2 {
         font-size: 18px;
