@@ -162,8 +162,16 @@ main {
     .sidebar {
         display:none
     }
+    .projects ul li {
+        width: 55%;
+    }
+    header {
+        display: block;
+    }
+    header nav ul {
+        display: block;
+    }
 }
-
 
 
 
