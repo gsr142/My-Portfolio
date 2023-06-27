@@ -1,7 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    outline: dashed 1px white;/*this line for reference while building only. Delete before deployment*/
+    border: white 2px dashed;
 }
 
 body {
@@ -101,8 +101,9 @@ footer {
     display: flex;
     flex-direction: column; /*stacks items on top of each other*/
     height: auto;/*fills the body top to bottom*/
-    width: 25%; /*fills 25% of page width*/
+    width: 15%; /*fills 15% of page width*/
     justify-content: space-between;
+    text-align: right;
     
 }
 
@@ -153,6 +154,10 @@ footer {
 /*Outlines project images with a box shadow on hover*/
 .projects ul li img:hover {
     box-shadow: 0 0 2px 2px aquamarine;
+}
+
+.not-ready:hover {
+    filter: grayscale(1)
 }
 
 /*Makes the first project in the list larger than the rest*/
