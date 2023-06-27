@@ -33,3 +33,13 @@ This is my portfolio website, to be updated as I learn and grow as a developer. 
 * Photo by: [Amirali Mirhashemian](https://unsplash.com/@amir_v_ali)
 * Published March 9, 2018
 * Free to use under the Unsplash License
+
+### Fantasy Football Site Photo
+* Photo by: [Ben Hershey](https://unsplash.com/@benhershey)
+* Published October 18, 2017
+* Free to use under the Unsplash License
+
+### Weather App
+* Photo by: [Raquel Pedrotti](https://unsplash.com/@raquelpedrotti)
+* Published August 20, 2019
+* Free to use under the Unsplash License
