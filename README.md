@@ -3,8 +3,21 @@
 ## Description
 This is my portfolio website, to be updated as I learn and grow as a developer. It is where I will showcase my best work, most recent projects, and favorite things to work on.
 
-## Author
-### Greg Richardson
+## Features
+* Home: A clean landing page that provides an overview of my abilities.
+* About: A section about my background and coding journey.
+* Work: A showcase of my past projects, with links to live websites.
+* Contact: Contact information, including links to my GitHub and LinkedIn pages.
+
+## Link to site
+### [My Portfolio](https://gsr142.github.io/My-Portfolio/)
+![My Portfolio](./assets/images/screenshot-desktop.png)
+
+## Lessons Learned
+* Wireframing before building would have made this much easier. I didn't learn about wireframing until the project was 90% complete, so I did everything the hard way.
+* The Flexbox is a great tool. It isn't the solution to every problem though.
+* If the source images are all the same size, it is much easier to make them display the same size on the page. 
+* Putting a border around every element makes it much easier to visualize how each element on the page interacts with the surrounding element. Just remember to remove it before deployment.
 
 ## Tools Used
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -43,3 +56,11 @@ This is my portfolio website, to be updated as I learn and grow as a developer. 
 * Photo by: [Raquel Pedrotti](https://unsplash.com/@raquelpedrotti)
 * Published August 20, 2019
 * Free to use under the Unsplash License
+
+## Author
+### Greg Richardson
+
+## Contact
+* gsr142@gmail.com
+* [GitHub](https://github.com/gsr142)
+* [LinkedIn](https://www.linkedin.com/in/gregory-richardson-7bb3a1280/)
