@@ -1,7 +1,6 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    /*border: white 2px dashed;*/
 }
 
 body {
@@ -26,8 +25,9 @@ h4 {
     font-size: 90%;
 }
 
+/*remove underline from links*/
 a:link {
-    text-decoration: none;/*remove underline from links*/
+    text-decoration: none;
 }
 
 header {
@@ -72,10 +72,8 @@ header nav ul li{ /*puts an equal ammount of space between each list item, while
     
 }
 
-header nav ul li a {
-    color:aliceblue;
+header a {
     font-weight: bold;
-    
 }
 
 header h2 {
@@ -96,8 +94,6 @@ footer {
     margin: 20px 0 10px 0;
     text-align: center;
 }
-
-
 
 .sidebar {
     display: flex;
@@ -126,7 +122,6 @@ footer {
     margin: 5px;
 }
 
-
 #about img {
     width:60px;
     height: 86px;
@@ -150,7 +145,6 @@ footer {
 
 .projects ul li img {
     width: 100%;
-    height: 100%;
 }
 
 
@@ -159,6 +153,7 @@ footer {
     box-shadow: 0 0 2px 2px aquamarine;
 }
 
+/*this class is for placeholder projects that arent finished yet. these will be replaced by completed projects as I add more to my portfolio*/
 .not-ready:hover {
     filter: grayscale(1)
 }
@@ -169,19 +164,9 @@ footer {
     height: 100%;
 }
 
-
-
-
-
-#contact {
-    display: flex; 
-    
-}
-
 #contact ul {
     display: flex;
-    list-style: none;
-    justify-content: space-around; /*centers content within container*/
+    justify-content: space-around; /*centers content within container, with equal space around each item*/
     width: 100%;
     margin-top: 4px;
 }
@@ -207,7 +192,6 @@ footer {
     }
     header {
         display: inline-flex;
-        text-align: center;
         align-items: center;
     }
     header nav {
