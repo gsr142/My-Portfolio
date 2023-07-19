@@ -57,6 +57,9 @@ This is my portfolio website, to be updated as I learn and grow as a developer. 
 * Published August 20, 2019
 * Free to use under the Unsplash License
 
+## Code Credit
+The reset.css file was taken from the UC Berkley Coding bootcamp lecture materials, from the section discussing CSS-resets. I did not author this file.
+
 ## Author
 ### Greg Richardson
 
